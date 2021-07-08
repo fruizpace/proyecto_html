@@ -11,3 +11,6 @@ La práctica consta de 5 páginas:
 3. **detalle.html**: Ficha de la película.
 4. **404error.html**: Página de error 404.
 5. **contador.html**: Contador no interactivo para las últimas novedades y formulario al Newsletter.
+
+### Nota
+Las imágenes y vídeos provienen de la web https://pixabay.com y las ilustraciones de la página principal de https://blush.design/es.
