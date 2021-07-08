@@ -1,0 +1,64 @@
+.contenedor-img {
+    margin-bottom: 5px;
+    height: 205px;
+    width: 136px;
+    border: whitesmoke solid 2px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.contenedor-img img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all 1000ms ease-out;
+}
+
+.contenedor-btn {
+    height: 30px;
+    width: 136px;
+    border: whitesmoke solid 2px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.contenedor-btn input {
+    display: none;
+}
+
+.lbl-btn-fav /*, .lbl-btn-fav2, .lbl-btn-fav3, .lbl-btn-fav4*/ { 
+    margin-left: 15px;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-image: url("../img/no-activado.png");
+    background-size: cover; /*para que se vea toda la imagen*/
+    background-repeat: no-repeat;
+}
+
+input[type="checkbox"].input-fav:checked ~ .lbl-btn-fav {
+    background-image: url("../img/activado.png");
+    background-size: contain; /*para que se vea toda la imagen*/
+}
+
+/* estrellas*/
+.input-star {
+    display: none;
+}
+
+.lbl-btn-star { 
+    height: 1rem;
+    width: 1rem;
+    background-image: url("../img/star-no.png");
+    background-size: contain; /*para que se vea toda la imagen*/
+    background-repeat: no-repeat;
+}
+
+input[type="checkbox"].input-star:checked ~ .lbl-btn-star {
+    background-image: url("../img/star-yes.png");
+    background-size: contain; /*para que se vea toda la imagen*/
+}

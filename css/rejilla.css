@@ -1,0 +1,62 @@
+.main-rejilla { /*main que contiene la rejilla div*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Rejilla: películas en Novedades */
+.seccion-titulos-novedades > h2 {
+    color: #ffc107;
+    font-size: 35px;
+    text-align:center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.seccion-titulos-novedades > h3 {
+    color: whitesmoke;
+    font-size: 18px;
+    text-align:center;
+    margin-bottom: 5px;
+}
+
+.seccion-titulos-novedades > p {
+    color: whitesmoke;
+    font-size: 12px;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.contenedor-rejilla { /*div que contiene los carteles*/
+    flex: 1;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+.box { /*contiene div para img + div para boton fav*/
+    margin: 20px;
+    position: relative; /* para que card se posicione dentro*/
+    }
+
+.seccion-proximamente {
+    display: flex;
+    justify-content: center;
+}
+
+.seccion-proximamente > a {
+    color: whitesmoke;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .main-rejilla { /*main que contiene la rejilla div*/
+margin-top: 128px;
+    }
+}

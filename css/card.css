@@ -1,0 +1,45 @@
+.box > .card-texto {
+    margin: 0;
+}
+
+.box .card {
+    position: absolute; /*card se pondrá por encima pero dentro del contenedor */
+    top: 0;
+    width: 136px;
+    height: 205px;
+    color: black;
+    background: rgba(245, 245, 245, 0.9);
+    opacity: 0;
+    visibility: hidden;
+
+    text-align: left;
+}
+
+.box:hover > .card {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card-texto {
+    margin: 5px;
+}
+
+.card-texto > h3 {
+    font-size: 15px;
+    font-weight: 900;
+}
+.card-texto > h4, p {
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.ver-ficha {
+    margin-top: 10px;
+}
+
+.ver-ficha a {
+    font-weight: 800;
+    text-align: center;
+    color: brown;
+    font-size: 18px;
+}

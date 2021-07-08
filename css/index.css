@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background: whitesmoke; /*linear-gradient(to right, rgb(255, 255, 255), #49d0ffff);*/
+}
+
+.letra-logo {
+    font-family:'Kirang Haerang', cursive;
+    font-size: 100px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.contenedor-form {
+    width: 300px;
+    height: 600px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    background-color: #3f51b5;  /*whitesmoke;*/
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 grey;
+    border-radius: 20px;
+}
+
+.form {
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo {
+    position: relative;
+    margin: 45px;
+}
+
+input {
+    background: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    text-align: left;
+}
+
+label {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 35px;
+    transition: 0.5s ease all;
+    text-align: left;
+}
+
+input:focus~label,
+input:valid~label{
+    top: -16px;
+    font-size: 12px;
+    color: #ffc107;
+}
+
+button {
+    background: #ffc107;
+    font-size: 20px;
+    border: none;
+    width: 30%;
+    height: 40px;
+    margin: 10px auto;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+button > a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: #999;
+}
+
+#pregunta_pw {
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+footer  {
+    bottom:0;
+    left:0;
+    right:0;
+    height: 300px;
+}
+
+.contenido_img {
+    width: 100%;
+}
+
+.footer-texto {
+    height: 20px;
+    font-size: 12px;
+    letter-spacing: 1.2px
+}
